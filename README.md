@@ -109,22 +109,43 @@ The Power BI dashboard includes analysis such as:
 These interactive filters allow users to explore the Netflix dataset based on different dimensions.
 
 ## Dashboard Preview
+ ![Netflix Movies Analytics Dashboard](images/Netflix_Dashboard_Image.png)
 
-![Netflix Movies Analytics Dashboard](Netflix_Dashboard_Image.png)
+## Project Structure
 
-## Project Files
+```text
+Netflix-Data-Analysis-Python-PowerBI/
+│
+├── README.md
+│
+├── data/
+│   ├── raw/
+│   │   └── netflix_movies_raw_data.csv
+│   │
+│   └── cleaned/
+│       └── Netflix_clean_data.csv
+│
+├── python/
+│   └── netflix_data_analysis.py
+│
+├── powerbi/
+│   └── Netflix_Dashboard.pbix
+│
+└── images/
+    └── Netflix_Dashboard_Image.png
+```
 
 ### Raw Dataset
 Contains the original Netflix movie dataset used for the project.
 
-### Python Analysis
-Contains the Python code used for data cleaning, transformation, exploratory data analysis, and financial analysis.
-
 ### Cleaned Dataset
-Contains the processed dataset created after performing data cleaning and transformations.
+Contains the processed dataset after data cleaning and transformation.
+
+### Python Analysis
+Contains the Python code used for data cleaning, exploratory data analysis, and financial analysis.
 
 ### Power BI Dashboard
-Contains the interactive Power BI dashboard developed for visualization and analysis.
+Contains the interactive Power BI dashboard developed for data visualization and analysis.
 
 ### Dashboard Image
 Contains a preview of the final Netflix Movies Analytics Dashboard.
